@@ -1,6 +1,11 @@
 using System.Text.Json;
+using System.Globalization;
 using SmartPrice.Models;
 using SmartPrice.Services;
+
+// Setăm cultura globală pe Română pentru a afișa prețurile în Lei corect
+CultureInfo.CurrentCulture = new CultureInfo("ro-RO");
+CultureInfo.CurrentUICulture = new CultureInfo("ro-RO");
 
 Console.WriteLine("--- Smart Price & Availability Tracker Started ---");
 
