@@ -1,0 +1,12 @@
+{
+  "CheckIntervalMinutes": 30,
+  "DiscordWebhookUrl": "https://discord.com/api/webhooks/YOUR_WEBHOOK_HERE",
+  "Products": [
+    {
+      "Name": "iPhone 15 Pro",
+      "Url": "https://example.com/iphone-15-pro",
+      "TargetPrice": 5000.0,
+      "PriceSelector": "//span[@id='price']"
+    }
+  ]
+}
