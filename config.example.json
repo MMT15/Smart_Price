@@ -1,0 +1,12 @@
+{
+  "CheckIntervalMinutes": 30,
+  "DiscordWebhookUrl": "https://discord.com/api/webhooks/YOUR_WEBHOOK_HERE",
+  "Products": [
+    {
+      "Name": "Example Product",
+      "Url": "https://www.emag.ro/example-product/pd/XXXXXX/",
+      "TargetPrice": 1000.0,
+      "PriceSelector": ""
+    }
+  ]
+}
